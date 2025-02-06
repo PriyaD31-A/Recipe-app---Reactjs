@@ -1,0 +1,197 @@
+body{
+  overflow-x: hidden;
+}
+
+/* header */
+.header1{
+  background-color: rgb(225,137,140);
+  padding: 20px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* Background images */
+
+.bg1{
+  filter: opacity(0.8);
+  background-color: rgb(7, 1, 1);
+  height: 600px;
+  margin-top: -9px;
+}
+.img1{
+  margin-top: 20px;
+}
+.content1{
+  color: white;
+  margin-top: 150px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: -20px;
+}
+.content2{
+  color: red;
+  margin-top: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: -20px;
+}
+.content3{
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+
+}
+@media screen and (min-width:50px) and (max-width:573px){
+ .bg1{
+  height: 600px;
+ }
+ .content1{
+   margin-top: 70px;
+   font-size: 40px;
+ }
+ .content2{
+  font-size: 30px;
+ }
+}
+@media screen and (min-width: 760px) and (max-width:1025px){
+  .content1{
+    font-size: 40px;
+  }
+  .content2{
+    font-size: 40px;
+  }
+  .img1{
+    margin-top: 80px;
+  }
+}
+
+/* Card */
+.recipe1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 60px;
+  color: rgb(221, 27, 221);
+  font-weight: bold;
+}
+.img-top{
+  transition: transform .2s;
+ }
+.img-top:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.cardtitle1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+.cart{
+  margin-top: -25px;
+  font-size: 30px;
+  height: 25px; 
+  width: 100px;
+  padding-top: 0px;
+}
+@media (min-width:50px) and (max-width: 572px){
+  .cart{
+      text-align: center;
+  }
+}
+@media (min-width: 990px) and (max-width: 1025px){
+  .cart{
+    margin-left: 10px;
+  }
+}
+
+/* inputbox */
+ 
+.inputbox{
+  margin-left: 550px;
+  width: 300px;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+.search{
+  font-size: 35px;
+  margin-left: 10px;
+}
+@media (min-width: 50px) and (max-width: 575px){
+  .inputbox{
+    margin-left: 50px;
+    width: 250px;
+  }
+}
+@media (min-width: 600px) and (max-width: 770px){
+  .inputbox{
+    margin-left: 250px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1024px){
+  .inputbox{
+    margin-left: 370px;
+  }
+}
+
+/* Recipedetails */
+
+.recipename{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: rgb(164, 105, 222);
+  margin-top: 30px;
+}
+.img2{
+  width: 200px;
+  margin-top: 10px;
+}
+.Ingredients{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(27, 16, 249);
+  background-color: aqua;
+}
+.list,.mealtype2,.cuisinetype2,.HealthLabels2,.calories2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 30px;
+  color: black;
+}
+.mealtype,.cuisinetype,.HealthLabels,.calories{
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(27, 16, 249);
+  background-color: aqua;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mealtype2,.cuisinetype2,.HealthLabels2,.calories2{
+  font-size: 25px;
+}
+.footer1{
+  background-color: black;
+  height: 300px;
+  width: 1530px;
+}
+.footercontent{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-right: -500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 50px) and (max-width: 575px) {
+  .footercontent{
+    margin-left: 0px;
+  }
+}
+
