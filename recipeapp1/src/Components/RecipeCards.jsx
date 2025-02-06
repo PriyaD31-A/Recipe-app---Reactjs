@@ -41,7 +41,7 @@ const RecipeCards = () => {
                     {search?.map((item, index) => (
                         <div className="col p-3" key={index}>
                             <Card className="align-items-center apply" style={{ height: "320px", backgroundColor: "azure",  borderRadius: "5px" }}>
-                                <Card.Img variant="top" className="img-top" src={item.recipe.image} style={{ width: "90%", height: "200px", padding: "10px" }} />
+                                <Card.Img variant="top" className="img-top" src={item.recipe.image} style={{ width: "90%", height: "190px", padding: "10px" }} />
                                 <Card.Body>
                                     <Card.Title className="cardtitle1">{item.recipe.label}</Card.Title>
                                     <button class="btn btn-primary d-block mx-auto p-1" onClick={() => navigate(`/recipe/${index}`, { state: { recipe: item.recipe } })}>View details</button>

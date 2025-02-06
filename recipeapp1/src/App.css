@@ -160,11 +160,17 @@ body{
   color: rgb(27, 16, 249);
   background-color: aqua;
 }
-.list,.mealtype2,.cuisinetype2,.HealthLabels2,.calories2{
+.list,.mealtype2,.cuisinetype2,.calories2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   margin-top: 30px;
   color: black;
+}
+.HealthLabels2{
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .mealtype,.cuisinetype,.HealthLabels,.calories{
   font-size: 30px;
@@ -173,7 +179,7 @@ body{
   background-color: aqua;
   font-family: 'Times New Roman', Times, serif;
 }
-.mealtype2,.cuisinetype2,.HealthLabels2,.calories2{
+.mealtype2,.cuisinetype2,.calories2{
   font-size: 25px;
 }
 .footer1{
@@ -190,8 +196,18 @@ body{
 }
 
 @media (min-width: 50px) and (max-width: 575px) {
+  .footer1{
+    height: 400px;
+  }
+  .contact{
+    font-size: 30px;
+  }
   .footercontent{
     margin-left: 0px;
   }
+}
+.contact{
+  color: white;
+  font-size: 20px;
 }
 

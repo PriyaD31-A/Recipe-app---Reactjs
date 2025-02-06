@@ -25,7 +25,7 @@ const Recipedetails = () => {
         <h3 className='cuisinetype'>CuisineType</h3>
       <h2 className='cuisinetype2'>{recipe.cuisineType}</h2>
     <h3 className='HealthLabels'>HealthLabels</h3>
-  <h2 className='HealthLabels2'>{recipe.healthLabels}</h2>
+  <h5 className='HealthLabels2'>{recipe.healthLabels}</h5>
   <h3 className='calories'>calories</h3>
 <h2 className='calories2'>{recipe.calories}</h2>
 </div>
